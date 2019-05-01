@@ -1,0 +1,111 @@
+body{
+    padding-top: 0px;
+    background-image: url("../Images/background.png");
+    margin: auto ;
+}
+
+.toolbar{
+    float: left ;
+    background-image: url("../Images/bannerbg.png");
+    background-repeat: repeat-x;
+    text-align: center ;
+    width: 100%
+}
+
+.secondtoolbar{
+    float: left ;
+    background-image: url("../Images/rbg.png");
+    background-repeat: repeat-x;
+    text-align: center ;
+    width: 75%;
+}
+
+
+.title{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24pt ;
+    font-family: Tahoma , Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px #999999;
+}
+
+.banner{
+    float: right; 
+    width: 25%;
+}
+
+.itemImage{
+    float: left; 
+    width: 10%;
+}
+
+
+.details{
+    float: left; 
+    width: 10%;
+    background-color: green ; 
+    height: 100%
+}
+.logo{
+    float: left 
+}
+
+.rate{
+    font-size: 40pt ; 
+    color: red ;
+    margin-left: initial;
+    margin-top: auto;   
+}
+
+.data{
+    border-radius: 10px;
+    border: 3px solid gray ; 
+    text-align: center;
+    vertical-align: middle;
+    width: 800px; 
+    margin: auto ;
+    overflow: auto ; 
+}
+.item{
+    border-radius: 10px;
+    border: 2px solid gray ; 
+    width: 25%;
+    margin: 10pt;
+    float: left;
+    background-color: #E8DC9B ;
+    padding: 8px ;
+    margin: 20pt;
+}
+
+
+.userDiv{
+    width: 25%;
+    margin: 10pt;
+    float: left;
+    padding: 8px ;
+    margin-right: 20pt;
+    margin-left: 20pt ; 
+    margin-top: 0pt ;
+}
+
+.review{
+    font-weight: bold ;
+    margin-top: 0px ; 
+
+}
+
+.userName{
+    color: black ;
+    margin-top: 0px; 
+    margin-left: 5pt;
+    float: left;
+    font-size: 10pt;
+    
+}
+
+.userdiv{
+    float: left;
+    width: 50%;
+}
+
