@@ -1,0 +1,45 @@
+body{
+    background-image: url("silverware.jpg")
+}
+
+h1{
+    background: #F0F0F0 ; 
+    text-decoration: underline ; 
+    color: #A4A508 ; 
+}
+.center{
+    text-align: center
+}
+
+ li{
+  line-height: 10px;   /* within paragraph */
+  margin-bottom: 5px; /* between paragraphs */
+  color: #535E7C;
+  }
+  
+  p.items{
+      line-height: 5px;   /* within paragraph */
+      color: #535E7C;
+  }
+    
+  blockquote{
+      color: black;
+      background-color: yellow ;
+  }
+  
+ 
+  span{
+     font-weight: bold
+  }
+  
+  span.crossover{
+      text-decoration: line-through
+  }
+  
+  yellowRef{
+      color: #A4A508;
+      text-decoration: underline ;
+  }
+  alignmentP{
+      text-align: right ;
+  }
