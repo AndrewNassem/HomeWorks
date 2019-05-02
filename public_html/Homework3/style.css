@@ -1,0 +1,42 @@
+body{
+    margin: 10px ; 
+}
+
+.formStyle{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 0px;
+    max-width: 600px;
+}
+.text{
+    width: 100px ;  
+}
+.item label{
+    width: 150px;
+    float: left;
+}
+.item{
+    margin: 5px;
+}
+
+.legendS{
+    background-color: white;
+    box-shadow: 1px 1px black;
+    border: 1px solid #D8D8D8;
+}
+
+.filedSetS{
+    border-radius: 10px;
+    background-color: #E0E0FF;
+}
+
+.know{
+    font-style: normal;
+    color: red ; 
+     text-decoration: none;
+}
+
+.submit{
+    color: black;
+    background-color: #FFAAAA ; 
+}
