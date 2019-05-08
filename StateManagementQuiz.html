@@ -1,0 +1,49 @@
+<p>&nbsp;</p>
+<p style="text-align: center;"><strong><span style="font-size: 16.0pt; line-height: 115%;">State Management Quiz</span></strong></p>
+<p style="text-align: center;"><strong><span style="font-size: 16.0pt; line-height: 115%;">&nbsp;</span></strong></p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong><strong><span style="font-size: 11.5pt; line-height: 115%;">Can post requests be bookmarked? What are the problems?</span></strong></p>
+<p><span style="font-size: 11.5pt; line-height: 115%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No , because It may have some data in the body , so when bookmark it , it will not bookmark with this data </span></p>
+<p><span style="font-size: 11.5pt; line-height: 115%;">&nbsp;</span></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong><strong><span style="font-size: 11.5pt; line-height: 115%;">What is the purpose of request dispatching?</span></strong></p>
+<p><span style="font-size: 11.5pt; line-height: 115%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It responsible to forward the request to another servlet </span></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong><strong><span style="font-size: 11.5pt; line-height: 115%;">What is the difference between redirect and request dispatch? </span></strong></p>
+<p><span style="font-size: 11.5pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Redirect is meaning to server sends HTTP status code 3xx to client along with the redirect URL (usually 302 temporary redirect) , client then sends a new request to the URL , address bar will change to new URL </span></p>
+<p><span style="font-size: 11.5pt;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong><strong><span style="font-size: 11.5pt;">What is an attribute ?</span></strong></p>
+<p><span style="font-size: 11.5pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Attribute is the data that </span><span style="font-family: 'Arial','sans-serif'; color: #222222; background: white;">is used to share information in a web app </span></p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong><strong><span style="font-size: 11.5pt;">What is the difference between attributes and parameters?</span></strong></p>
+<p><span style="font-family: 'Arial','sans-serif'; color: #222222; background: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size: 11.5pt;">Parameters may come into our application&nbsp;<strong>from the client request , Attributes&nbsp;</strong>are objects that are&nbsp;attached to various scopes&nbsp;and can be modified</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;<strong><span style="font-size: 11.5pt; line-height: 115%;">What are dangers of using attributes?</span></strong></p>
+<p><span style="font-size: 11.5pt; line-height: 115%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To not be thread safe , global </span></p>
+<p><strong>&nbsp;</strong><strong><span style="font-size: 11.5pt; line-height: 115%;">What does it mean to say that http is stateless? Give an example of a stateful protocol .</span></strong></p>
+<p><span style="font-size: 11.5pt; line-height: 115%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; That&rsquo;s mean that it can&rsquo;t remember the previous requests , FTP is stateful protocol</span></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong><strong><span style="font-size: 11.5pt; line-height: 115%;">Give 5 different methods for maintaining state information (count each attribute scope as one method).</span></strong></p>
+<p><span style="font-size: 11.5pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+<ol>
+<li style="text-indent: .5in;"><span style="font-size: 11.5pt; line-height: 115%;"> request scope: destroyed when servlet finishes processing request </span></li>
+<li style="text-indent: .5in;"><span style="font-size: 11.5pt; line-height: 115%;"> session scope: destroyed when user closes browser </span></li>
+<li style="text-indent: .5in;"><span style="font-size: 11.5pt; line-height: 115%;"> application scope destroyed when Container stopped.</span></li>
+<li style="text-indent: .5in;"><span style="font-size: 11.5pt; line-height: 115%;"> Cookies saved on browser, temporary (deleted when the browser closes) permanent </span></li>
+<li style="text-indent: .5in;"><span style="font-size: 11.5pt; line-height: 115%;"> Hidden fields on a form</span></li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong><strong><span style="font-size: 11.5pt; line-height: 115%;">How long does a session last?</span></strong></p>
+<p><span style="font-size: 11.5pt; line-height: 115%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It depend on the code that is written , or by default it&rsquo;s long time , or until the developer decide to invalidate it </span></p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong><strong><span style="font-size: 11.5pt; line-height: 115%;">What is a cookie, and how long does a cookie last?</span></strong></p>
+<p><span style="font-size: 11.5pt; line-height: 115%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Cookies are small files which are stored on a user's computer. They are designed to hold a modest amount of data specific to a particular client and website, The time of expiry of a cookie can be set when the cookie is created. By default the cookie is destroyed when the current browser window is closed, but it can be made to persist for an arbitrary length of time after that.</p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong><strong><span style="font-size: 11.5pt; line-height: 115%;">What is the purpose of URL rewriting?</span></strong></p>
+<p><span style="font-size: 11.5pt; line-height: 115%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>can be employed as a convenience by a Web server administrator, or for nefarious purposes by a hacker. An example of the constructive use of this technique is allowing an Internet user to access a Web site that has a complicated URL by entering a simpler URL into the address bar of a Web browser. The URL manipulation redirects the request so the user does not have to remember, manually enter, or meticulously cut and paste a long, arcane character string. An example of malicious URL manipulation is its implementation, without the knowledge of the affected server administrator or Internet user, for the purpose of redirecting user requests from a legitimate site to an illegitimate site. The bogus site may then install rogue code on the user's hard drive.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;<span style="font-size: 11.5pt; line-height: 115%;">Why does the request attribute report &lsquo;null&rsquo; for the maintaining state demo?</span></p>
+<p><span style="font-size: 11.5pt; line-height: 115%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</span></p>
+<p><span style="font-size: 11.5pt; line-height: 115%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
